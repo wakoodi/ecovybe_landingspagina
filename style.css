@@ -1,0 +1,247 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #EDEEDE;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    color: #676666;
+}
+
+header{
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    display: flex;
+    height: 150px;
+    width: 100%;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+
+.nav{
+    align-self: center;
+    width: 340px;
+    margin-top: 0px;
+    margin-right: 0px;
+    font-size: 20px;
+    
+}
+
+.nav a{
+    color: #EDEEDE;
+	display: block;
+    margin-left: 20px;
+    text-decoration: none;
+    padding-right: 30px;  
+    text-align: right;
+}
+
+/*home*/
+h1{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.wat{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.fases{
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom:15px;
+}
+
+.fase1{
+    height: 90px;
+    width: 90px;
+    position: relative;
+}
+
+.fase2{
+    height: 90px;
+    width: 90px;
+    position: relative;
+}
+
+.fase3{
+    height: 90px;
+    width: 90px;
+    margin-left: 30px;
+    position: relative;
+}
+
+/*info*/
+.info{
+    display: flex;
+    align-content:center;
+    height: 900px;
+    
+}
+
+.info__vers{
+    background-image: url('images/vak.png');
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 20%;
+    padding-bottom: 8px;
+    margin-bottom: 30px;
+}
+
+.plant{
+    margin-top: 30px;
+    width: 55px;
+    align-self: center;
+}
+
+h2{
+    align-self: center;
+    font-size: 20px;
+}
+
+.vers{
+    width: 50%;
+    align-self: center;
+    font-size: 15px;  
+}
+
+.info__lokaal{
+    background-image: url('images/vak.png');
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 20%;
+    padding-bottom: 8px;
+    margin-bottom: 30px;
+}
+
+.lokaal{
+    width: 50%;
+    align-self: center;
+    font-size: 15px; 
+}
+
+.pointer{
+    margin-top: 30px;
+    width: 40px;
+    height: 55px;
+    align-self: center;
+}
+
+.info__smart{
+    background-image: url('images/vak.png');
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 20%;
+    padding-bottom: 8px;
+    margin-bottom: 30px;
+}
+
+.smart{
+    width: 50%;
+    align-self: center;
+    font-size: 15px; 
+}
+
+.ding{
+    margin-top: 30px;
+    width: 40px;
+    height: 55px;
+    align-self: center;
+}
+
+/*bestellen*/
+.kitD{
+    display: flex;
+    align-content:center;
+    flex-direction: column; 
+}
+
+.diy{
+    order: 0;
+}
+
+.txt{ 
+    order: 1;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.button{
+    order: 2;
+    cursor: not-allowed;
+    text-align: center;
+    background-color: #9FB26D;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    color:#EDEEDE;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.kit{
+    display: none;
+}
+
+/*prototypes*/
+#app{
+    display: none;
+}
+
+.app--kit{
+    display: none;
+}
+
+.app--klant{
+    display: none;
+}
+
+.app--teler{
+    display: none;
+}
+
+/*uitleg apps*/
+.uitleg{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/*store*/
+.google{
+    height: 125px;
+    width: 125px;
+}
+
+.apple{
+    height: 125px;
+    width: 125px;
+}
+
+/*footer*/
+footer{
+    background-color: #9FB26D;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
