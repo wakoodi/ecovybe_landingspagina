@@ -1,5 +1,5 @@
 body{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Muli', sans-serif;
     background-color: #EDEEDE;
     margin-left: 0px;
     margin-top: 0px;
@@ -21,7 +21,7 @@ header{
     width: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 90px;
+    margin-left: 30px;
 }
 
 .nav{
@@ -30,7 +30,6 @@ header{
     margin-top: 0px;
     margin-right: 0px;
     font-size: 20px;
-    
 }
 
 .nav a{
@@ -43,11 +42,16 @@ header{
 }
 
 /*home*/
+#home{
+    margin-left:5%;
+    margin-right: 5%;
+}
+
 h1{
     margin-left: 20px;
     margin-bottom: 10px;
-    margin-top: 70px;
-    font-size: 20px;
+    margin-top: 40px;
+    font-size: 18px;
 }
 
 .wat{
@@ -57,28 +61,27 @@ h1{
 
 .fases{
     display: flex;
-    align-content: space-evenly;
+    align-content: space-between;
     justify-content: space-around;
-    margin: auto;
-    margin-bottom:15px;
+    margin-top:10%;
+    margin-bottom:10%;
 }
 
 .fase1{
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     position: relative;
 }
 
 .fase2{
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     position: relative;
 }
 
 .fase3{
-    height: 90px;
-    width: 90px;
-    margin-left: 30px;
+    height: 60px;
+    width: 60px;
     position: relative;
 }
 
@@ -87,7 +90,6 @@ h1{
     display: flex;
     align-content:center;
     height: 900px;
-    
 }
 
 .info__vers{
@@ -105,18 +107,21 @@ h1{
 .plant{
     margin-top: 30px;
     width: 55px;
-    align-self: center;
+    margin-left:25%;
 }
 
 h2{
-    align-self: center;
+    text-align: left;
+    margin-left:10%;
     font-size: 20px;
+    width:80px;
+
 }
 
 .vers{
     width: 50%;
-    align-self: center;
-    font-size: 15px;  
+    margin-left: 10%;
+    font-size: 16px;  
 }
 
 .info__lokaal{
@@ -133,15 +138,14 @@ h2{
 
 .lokaal{
     width: 50%;
-    align-self: center;
-    font-size: 15px; 
+    margin-left: 10%;
+    font-size: 16px;  
 }
 
 .pointer{
     margin-top: 30px;
-    width: 40px;
-    height: 55px;
-    align-self: center;
+    width: 55px;
+    margin-left:25%;
 }
 
 .info__smart{
@@ -158,15 +162,14 @@ h2{
 
 .smart{
     width: 50%;
-    align-self: center;
-    font-size: 15px; 
+    margin-left: 10%;
+    font-size: 16px;  
 }
 
 .ding{
     margin-top: 30px;
-    width: 40px;
-    height: 55px;
-    align-self: center;
+    width: 55px;
+    margin-left:25%;
 }
 
 /*bestellen*/
@@ -174,6 +177,9 @@ h2{
     display: flex;
     align-content:center;
     flex-direction: column; 
+    margin-top:-10%;
+    margin-left:5%;
+    margin-right: 5%;
 }
 
 .diy{
@@ -198,6 +204,8 @@ h2{
     width: 30%;
     display: flex;
     justify-content: center;
+    margin-left:30%;
+    margin-top:5%;
 }
 
 .kit{
@@ -222,15 +230,24 @@ h2{
 }
 
 /*uitleg apps*/
+.uitlegheader{
+    margin-left:10%;
+    margin-right: 10%;
+    font-size: 18px;
+}
+
 .uitleg{
-    margin-left: 20px;
-    margin-right: 10px;
+    margin-left:10%;
+    margin-right: 10%;
+    font-size: 16px;
 }
 
 /*store*/
 .google{
     height: 125px;
     width: 125px;
+    margin-left: 9%;
+    margin-right:5%;
 }
 
 .apple{
@@ -244,4 +261,350 @@ footer{
     display: flex;
     justify-content: center;
     font-size: 14px;
+    height:80px;
+}
+
+@media screen and (min-width: 600px){
+
+    .nav{
+        align-self: center;
+        width: 340px;
+        margin-top: 0px;
+        /* margin-right: -80%; */
+        font-size: 20px;
+        margin-left: 50%;
+    }
+
+    h1{
+        font-weight: bold;
+    }
+
+    .fases{
+        margin-top:2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    .fase1{
+        width:90px;
+        height: 90px;
+        margin-left:10%;
+        margin-right: -10%;
+    }
+
+    .fase2{
+        width:90px;
+        height: 90px;
+    }
+
+    .fase3{
+        width:90px;
+        height: 90px;
+        margin-left:-10%;
+        margin-right: 13%;
+    }
+
+    .diy{
+        margin-top: 15%;
+    }
+
+    .uitlegheader{
+        margin-left:7.5%;
+        margin-right:7.5%;
+        font-size: 18px;
+    }
+    
+    .uitleg{
+        margin-left:7.5%;
+        margin-right:7.5%;
+        font-size: 16px;
+    }
+
+    .google{
+        height: 125px;
+        width: 125px;
+        margin-left: 28%;
+        margin-right:5%;
+    }
+    
+    .apple{
+        height: 125px;
+        width: 125px;
+    }    
+}
+
+@media screen and (min-width: 1300px){
+    .nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-right: 10%;
+        width:500px;
+    }
+
+    .nav a{
+        flex-grow: 4;
+    }
+
+    .logo{
+        margin-left:100%;
+        width:120px;
+        height: auto;
+    }
+
+    h1{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .wat{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 18px;
+    }
+
+    .fases{
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+    .fase1{
+        width:90px;
+        height: 90px;
+        margin-left:15%;
+        margin-right: -15%;
+    }
+
+    .fase2{
+        width:90px;
+        height: 90px;
+    }
+
+    .fase3{
+        width:90px;
+        height: 90px;
+        margin-left:-15%;
+        margin-right: 18%;
+    }
+
+    #info{
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-left:7.5%;
+        margin-right: 1%;
+        }
+
+    .info__vers {
+        -webkit-order: 01;
+        -ms-flex-order: 01;
+        order: 01;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        align-self: auto;
+        height: 320px;
+        width: 400px;
+        margin-left:2%;
+        }
+
+    .info__lokaal{
+        -webkit-order: 02;
+        -ms-flex-order: 02;
+        order: 02;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        align-self: auto;
+        height: 320px;
+        width: 400px;
+        margin-left: -2.5%;
+        }
+
+    .info__smart{
+        -webkit-order: 3;
+        -ms-flex-order: 3;
+        order: 3;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        align-self: auto;
+        height: 320px;
+        width: 400px;
+        margin-left: -2.5%;
+        }
+
+    .diy{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 12.5%;
+    }
+
+    .txt{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    }
+
+    .button{
+        font-size: 20px;
+        width: 200px;
+        margin-left: 40.5%;
+        margin-top:2%;
+        margin-bottom: -1%;
+    }
+
+    #app{
+        display: inline-block;
+        height: 150%;
+        margin-top: 2.5%;
+    }
+
+    .app--kit{
+        display: block;
+        height: 450px;
+        margin-left: 30%;
+    }
+
+    .app--kit p{
+        font-size: 18px;
+        font-family: "Muli";
+        font-weight: bold;
+        text-align: center;
+        margin-top:10%;
+        width:600px;
+        margin-left:43.5%;
+    }
+    
+    .app--klant{
+        display: block;
+        height: 450px;
+        margin-left: 20%;
+    }
+    
+    .app--teler{
+        display: block;
+        height: 700px;
+        margin-left:10%;
+        font-size: 18px;
+        font-family: "Muli";
+        font-weight: bold;
+    }
+
+    .app--teler p{
+        font-size: 18px;
+        font-family: "Muli";
+        font-weight: bold;
+        text-align: center;
+        margin-top:20%;
+        width:600px;
+        margin-left:58%;
+    }
+
+#app__info{
+    margin-left:7.5%;
+    margin-top: 5%;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: space-around;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.uitlegheader{
+    font-size: 18px;
+    font-family: "Muli";
+    font-weight: bold;
+}
+
+.uitleg{   
+    font-size: 16px;
+    font-family: "Muli";
+}
+
+.app__info--kit {
+    width:300px;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.app__info--klant {
+    width:300px;
+    height:230px;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.app__info--teler {
+    width:300px;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+#store{
+    margin-left: 36%;
+    margin-right: 15%;
+}
+
+.google{
+    margin-left: -80%;
+}
+
 }
